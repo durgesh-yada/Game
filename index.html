@@ -57,17 +57,17 @@
       <button onclick="
        playGame('Rock');
        "class="move-button">
-       <img src="images/rock.png" class="image"></button>
+       <img src="rock.png" class="image"></button>
        
       <button onclick="
        playGame('Paper');
       "class="move-button">
-      <img src="images/paper.png" class="image"></button>
+      <img src="paper.png" class="image"></button>
 
       <button onclick="
        playGame('Scissors');
       "class="move-button">
-      <img src="images/scissors.png" class="image"></button>
+      <img src="scissors.png" class="image"></button>
 
       <p class="js-result result"></p>
       <p class="js-move"></p>
@@ -147,8 +147,8 @@
 
             document.querySelector('.js-move')
         .innerHTML=`You Pick
-        <img src="images/${playerMove}.png" class="image">
-        <img src="images/${computerMove}.png" class="image">
+        <img src="${playerMove}.png" class="image">
+        <img src="${computerMove}.png" class="image">
         Computer Pick`;
 
           
